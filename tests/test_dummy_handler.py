@@ -18,7 +18,6 @@ class DemoTestCase(unittest.TestCase):
 		#self.assertFalse(d.some_bool())
 
 
-
 	def test_do_nothing(self):
 		"""Does this function actually return False?"""
 		self.assertFalse(d.do_nothing())
